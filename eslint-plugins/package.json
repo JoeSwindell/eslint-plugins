@@ -13,6 +13,10 @@
   "author": "Joe Swindell",
   "license": "ISC",
   "description": "Collection of ES-Lint rules",
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "@typescript-eslint/utils": "^6.0.0"
+  },
   "devDependencies": {
     "eslint": "^8.0.0",
     "@typescript-eslint/utils": "^6.0.0",
