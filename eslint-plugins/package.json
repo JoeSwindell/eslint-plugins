@@ -1,19 +1,26 @@
 {
   "name": "eslint-plugins",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [ "lib" ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --build",
-    "clean": "tsc --build --clean"
+    "build": "tsc -b",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "npm run lint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@types/node": "^24.0.12",
-    "eslint": "^9.30.1",
-    "typescript": "^5.8.3"
+    "eslint": "^8.0.0",
+    "@typescript-eslint/utils": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoeSwindell/eslint-plugins.git"
   }
 }
