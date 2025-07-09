@@ -10,9 +10,9 @@
     "test": "npm run lint"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joe Swindell",
   "license": "ISC",
-  "description": "",
+  "description": "Collection of ES-Lint rules",
   "devDependencies": {
     "eslint": "^8.0.0",
     "@typescript-eslint/utils": "^6.0.0",
